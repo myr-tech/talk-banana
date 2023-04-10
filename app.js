@@ -1,11 +1,15 @@
 
 var btnTranslate = document.querySelector("#btn-translate");
 var textinput = document.querySelector("#text-input");
+var outputDiv=document.querySelector("#output");
 
-console.log(textinput)
-
+//outputDiv.innertext="mayur"
+//console.log(outputDiv)
 function clickHandler(){
-    console.log("clicked.!");
-    console.log("input",textinput.value);
+    outputDiv.innerText="asasasashi"+ textinput.value;
+    
+    
+    //console.log("clicked.!");
+    //console.log("input",textinput.value);
 };
 btnTranslate.addEventListener("click",clickHandler)

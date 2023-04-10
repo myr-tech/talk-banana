@@ -5,12 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <style>
+        textarea{
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+        }
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem; 
+        }
+        button{
+            margin: 1rem;
+        }
+    </style>
 </head>
 <body>
     <h1>talk banana</h1>
-    <textarea id="text-input" name="textarea" placeholder="Put your sentence here in English to convert into banana"  cols="30" rows="10"></textarea>
+    <textarea id="text-input" name="textarea" placeholder="Put your sentence here in English to convert into banana"  cols="30" rows="10"></textarea><br>
     <button id="btn-translate">Translate</button>
+
+<div style="font: large;">output will come here 👇</div>
+<div id="output"></div>
+
+
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
